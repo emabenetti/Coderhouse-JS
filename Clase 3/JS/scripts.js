@@ -1,26 +1,32 @@
 //Declaracion de variables
+let inventario = [
+    ['Espada','Daño 15','Fuerza +1','Peso 4.0'], 
+    ['Hacha','Daño 25','Fuerza +3','Peso 10.5'], 
+    ['Cetro','Daño 20','Inteligencia +4', 'Peso 5.0'], 
+    ['Arco','Daño 10','Agilidad +5','Peso 3.5']];
 
-let nombreIngresado; //variable para almacenar el nombre
-let nombreApellido; //variable para almacenar la cadena que contiene solo el apellido
+let elegir
 
-//prompt para pedir los datos
-nombreIngresado = prompt("Ingrese nombre y apellido");
+console.log("Esto es lo que hay en tu inventario:\n");
 
+for (let i = 0; i < inventario.length; i++) {
+    console.log("<--------- Tipo: " + inventario[i][0] + " --------->\n")
+    for (let j = 0; j < inventario[i].length; j++) {
+        console.log(inventario[i][j]+"\n");
+    }
+}
 
-//Extraer el apellido apartir del espacio encontrado, hasta el final de la cadena
-nombreApellido = nombreIngresado.slice(nombreIngresado.lastIndexOf(" "));
+while (elegir) {
+    elegir = prompt(
+        "Que quieres subir de nivel en la forja?\n" + "(" + inventario[0][0] + ", " + inventario[1][0] + ", " + inventario[2][0] + ", " + inventario[3][0] + ")"
+    )
+    switch (elegir.totoLowerCase()) {
+        case espada:
+            inventario[0] = ['Espada del Rey', 'Daño 35', 'Fuerza +5', 'Peso 6.0', 'Epica: los enemigos quedan relentizados con los ataques']
+            break;
 
-console.log("EXTRAER APELLIDO\n"+"Nombre ingresado: "+nombreIngresado)
-
-//Condicional que compara si el primer y ultimo indice del espacio en la oración son el mismo. Si es así, el nombre solo tiene dos palabras.
-if (nombreIngresado.indexOf(" ") !== nombreIngresado.lastIndexOf(" ")) {
-    //Avisa que el nombre tiene varias palabras y que el apellido puede no ser la ultima.
-    console.log("El nombre ingresado es compuesto (tiene mas de dos palabras).\nLa ultima palabra de tu nombre (con suerte) es tu apellido:\n"+nombreApellido);  
-} else {
-    //Solo tiene dos palabras, el apellido es la ultima.
-    console.log("Tipo de nombre: " + "\n No es un nombre compuesto (consta de solo dos palabras)\n" + "\nEl apellido es: " + nombreApellido);
-}    
-    
-
-
+        default:
+            break;
+    }
+}
 
