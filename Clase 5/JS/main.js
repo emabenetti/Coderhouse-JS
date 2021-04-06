@@ -4,9 +4,11 @@ const arco = new Arma ("Arco","Silverfang",85,"Arco del antiguo héroe de los el
 
 let inventario = [espada, hacha, arco]
 
-console.log("Realizas un ataque con tu " + inventario[0].nombre + "\n");
-inventario[0].ataque();
-console.log("Realizas un ataque con tu " + inventario[1].nombre + "\n");
-inventario[1].ataque();
-console.log("Realizas un ataque con tu " + inventario[2].nombre + "\n");
-inventario[2].ataque();
+//Se le pregunta al usuario que item quiere usar para atacar, y se muestran las opciones disponibles.
+eleccion = prompt(
+    "Elija su arma:\n" + "(" + inventario[0].nombre + ", " + inventario[1].nombre + ", " + inventario[2].nombre + ")"
+)
+
+//Se llama a la funcion de ataque y se le pasa como parámetro la elección del usuario
+atacar(eleccion);
+
