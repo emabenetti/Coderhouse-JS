@@ -1,0 +1,1243 @@
+{
+    "frames": [
+        {
+            "filename": "adventurer-attack1-00-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-attack1-01-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 37
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-attack1-02-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 74
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-attack1-03-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 111
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-attack1-04-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 148
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-attack2-00-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 185
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-attack2-01-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 222
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-attack2-02-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 259
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-attack2-03-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 296
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-attack2-04-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 333
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-attack2-05-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 370
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-attack3-00-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 407
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-attack3-01-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 444
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-attack3-02-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 481
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-attack3-03-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 518
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-attack3-04-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 555
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-attack3-05-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 592
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-crnr-clmb-00-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 629
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-crnr-clmb-01-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 666
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-crnr-clmb-02-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 703
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-crnr-clmb-03-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 740
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-crnr-clmb-04-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 777
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-crnr-grb-00-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 814
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-crnr-grb-01-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 851
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-crnr-grb-02-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 888
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-crnr-grb-03-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 925
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-crnr-jmp-00-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 962
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-crnr-jmp-01-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 999
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-crouch-00-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1036
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-crouch-01-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1073
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-crouch-02-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1110
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-crouch-03-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1147
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-die-00-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1184
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-die-01-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1221
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-die-02-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1258
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-die-03-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1295
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-die-04-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1332
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-die-05-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1369
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-die-06-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1406
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-fall-00-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1443
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-fall-01-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1480
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-hurt-00-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1517
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-hurt-01-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1554
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-hurt-02-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1591
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-idle-00-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1628
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-idle-01-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1665
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-idle-02-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1702
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-idle-2-00-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1739
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-idle-2-02-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1776
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-idle-2-01-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1813
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-idle-2-03-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1850
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-idle-03-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1887
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-jump-00-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1924
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-jump-01-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1961
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-jump-02-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 1998
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-jump-03-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2035
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-ladder-climb-00-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2072
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-ladder-climb-01-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2109
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-ladder-climb-02-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2146
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-ladder-climb-03-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2183
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-run-00-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2220
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-run-01-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2257
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-run-02-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2294
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-run-03-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2331
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-run-04-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2368
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-run-05-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2405
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-slide-00-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2442
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-slide-01-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2479
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-smrslt-00-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2516
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-smrslt-01-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2553
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-smrslt-02-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2590
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-smrslt-03-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2627
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-stand-00-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2664
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-stand-01-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2701
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-stand-02-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2738
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-swim-00-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2775
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-swim-01-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2812
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-swim-02-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2849
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-swim-03-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2886
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-swrd-drw-00-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2923
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-swrd-drw-01-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2960
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-swrd-drw-02-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 2997
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-swrd-drw-03-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 3034
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-swrd-shte-00-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 3071
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-swrd-shte-01-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 3108
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-swrd-shte-02-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 3145
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-swrd-shte-03-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 3182
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-wall-slide-00-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 3219
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-wall-slide-01-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 3256
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-water-tread-00-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 3293
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-water-tread-01-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 3330
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-water-tread-02-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 3367
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-water-tread-03-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 3404
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-water-tread-04-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 3441
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "adventurer-water-tread-05-1.3",
+            "frame": {
+                "w": 50,
+                "h": 37,
+                "x": 0,
+                "y": 3478
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Gamma V2",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}
