@@ -5,7 +5,7 @@ import Bootloader from './bootloader.js';
 import Jugar from './scenes/jugar.js';
 
 const config = {
-    width: 800,   //ancho de pantalla
+    width: 600,   //ancho de pantalla
     height: 224,  //alto de pantalla
     parent: "contenedor",   //en que parte del index.html esta el juego. Es el id del div
     physics: {                //Hay varios tipos de fisicas en phaser. Voy a usar arcade que son las mas faciles

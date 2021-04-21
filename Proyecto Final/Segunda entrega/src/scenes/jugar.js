@@ -101,7 +101,7 @@ export default class Jugar extends Phaser.Scene {
     //Util para poner funciones en estructuras de control, como por ejemplo las detecciones de teclado
     update() {
         //defino una variable para la velocidad del personaje
-        const vel = 200;
+        const vel = 100;
         
         //Ahora puedo usar las propiedades de "teclas" para comprobar si una de sus teclas está presionada
         //Para eso se puede usar isDown en caso de tecla presionada o onUp en caso de tecla leventada
