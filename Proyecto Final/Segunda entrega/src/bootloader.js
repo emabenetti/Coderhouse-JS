@@ -25,12 +25,13 @@ class Bootloader extends Phaser.Scene {
 
         //Cargo la imagen que contiene los tiles para el mapa
         this.load.image('tiles', 'tiles.png');
+        this.load.image('cielo', 'cielo.png');
+        this.load.image('pinos', 'pinos.png');
 
         //Cargo el mapa en formato JSON (creado con el programa gratuito Tiled)
         this.load.tilemapTiledJSON('nivel1', 'nivel1_bosque.json');
         
-        this.load.image('cielo_fondo', 'cielo.png');
-        this.load.image('bosque_fondo', 'bosque.png');
+
 
         //La vieja confiable para saber si vamos bien.
         console.log("preload cargado");

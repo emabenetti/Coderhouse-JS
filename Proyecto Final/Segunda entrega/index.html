@@ -5,24 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entrega Final 2</title>
-    <style>
-        /* Un estilo básico para mantener fijo el zoom del juego */
-        main {
-            background: #000000;
-            padding: 0px;
-            margin: 0px;
-        }
-        #contenedor{
-            margin-top: 50px;
-        }
-    </style>
 </head>
 <body>
     <main>
     <!-- No es necesario, pero es recomendable meter el juego en un div para poder aplicarle estilos -->
     <!-- Este id luego hay que ponerlo en la config del juego en init.js -->
     <div id="contenedor"></div>
-
     <!-- Por ultimo cargo el archivo de phaser y el archivo de config -->
     <script src="./node_modules/phaser/dist/phaser.js"></script>
     <script src="./src/init.js" type="module"></script>

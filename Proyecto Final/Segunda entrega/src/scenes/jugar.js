@@ -1,5 +1,5 @@
-import Background from '../gameObjects/background.js';
 import Jugador from '../gameObjects/jugador.js'
+import { debugModo } from '../herramientas/debug.js';
 
 //Las escenas en Phaser son como "niveles" o "pantallas".
 //Esto crea una nueva escena llamada Jugar (para la pantalla principal) y extiende la clase de Phaser.Scene
@@ -18,23 +18,35 @@ export default class Jugar extends Phaser.Scene {
         const ancho = this.scale.width;
         const alto = this.scale.height;
 
+        //Defino el limite FISICO del nivel, sino el personaje no avanza fuera del limite de la pantalla.
+        this.physics.world.setBounds(0, 0, 3200, 224);
+        this.cameras.main.setBounds(0, 0, 3200, 224);
+
         //Guardo el mapa en una variable local. La key tiene que ser igual que el nombre definido en el bootloader
         const map = this.make.tilemap({ key: 'nivel1' });
         
         //Luego agrego las imagenes correspondientes al mapa. Como parametro hay que pasar el nombre del tileset que usamos en Tiled y el nombre de la imagen del bootloader
         const tileset = map.addTilesetImage('bosque', 'tiles');
 
+        // create an tiled sprite with the size of our game screen
+        this.bg_1 = this.add.tileSprite(0, 0, ancho, alto, "cielo");
+        // Set its pivot to the top left corner
+        this.bg_1.setOrigin(0, 0);
+        // fixe it so it won't move when the camera moves.
+        // Instead we are moving its texture on the update
+        this.bg_1.setScrollFactor(0);
 
-        var bg1 = new Background('cielo_fondo');
+        // Add a second background layer. Repeat as in bg_1
+        this.bg_2 = this.add.tileSprite(0, 0, ancho, alto, "pinos");
+        this.bg_2.setOrigin(0, 0);
+        this.bg_2.setScrollFactor(0);
 
-        this.bg2 = this.add.image(0, 0, 'bosque_fondo');
-        this.bg2.setOrigin(0, 0);
-        this.bg2.setScrollFactor(0);
 
         //Con el mapa y tileset cargados y asignados a variables, podemos empezar a mostrar el nivel en pantalla.
         //Como en el programa Tiled hice un mapa por capas, hay que cargar cada una por separado.
         //Arrancando por la capa del piso, que va a ser la unica guardada en una variable por que vamos a interactuar con ella.
         //Los parametros son el mismo nombre de la capa que en el programa, y que conjunto de imagenes va a usar.
+        
         const capaPiso = map.createLayer('Piso', tileset);
         
         //Las demas no es necesarias agregarlas a una variable, la funcion es suficiente para renderizarlas en pantalla.
@@ -44,19 +56,15 @@ export default class Jugar extends Phaser.Scene {
         //Con esto definimos que la capa del piso tenga colisiones. Para eso en Tiled se agregó la propiedad collides.
         capaPiso.setCollisionByProperty({ collides: true });
         
-        //Todo esto es una parte de codigo que saque de un tutorial que sirve para pintar una capa de otro color
-        //Sirve para hacer debug de colisiones cuando algo está fallando.
-        const debugGraphics = this.add.graphics().setAlpha(0.7)
-        capaPiso.renderDebug(debugGraphics, {
-            tileColor: null,
-            collidingTileColor: new Phaser.Display.Color(243,134,48,255),
-            faceColor: new Phaser.Display.Color(40,39,37,255)
-        });
+        //Esta funcion es la que exportamos en herramientas/debug.js
+        //Tiene como parametros una capa y una escena. En este caso, la capa de colisiones y la escena donde estamos, para ver las colisiones.
         
+        //debugModo(capaPiso, this);
+
         //this.heroe es basicamente una variable global.
         //physics.add le indica a Phaser que este objeto va a interacturar con el motor de físicas
         //sprite(x,y, imagen) es para asignarle una imagen al objeto con la ubicacion en XY y que imagen se va a usar ('heroe' se definio en el bootloader.js)
-        this.heroe = this.physics.add.sprite(300, 100, 'heroe');
+        this.heroe = this.physics.add.sprite(800, 50, 'heroe');
         
         //El hitbox del personaje terminó siendo mas grande de lo deseado, asi que le reduzco el ancho a la mitad y el alto en un 20%
         this.heroe.body.setSize(this.heroe.width * 0.5, this.heroe.height * 0.8)
@@ -85,6 +93,7 @@ export default class Jugar extends Phaser.Scene {
         //Phaser puede simular una camara que siga al jugador.
         //Muy util cuando el mapa es mas grande que la configuración de la pantalla.
         /* this.cameras.main.startFollow(this.heroe, true); */
+        this.camara = this.cameras.main.startFollow(this.heroe, true);
 
     }
 
@@ -115,6 +124,9 @@ export default class Jugar extends Phaser.Scene {
             this.heroe.setVelocityX(0);
             this.heroe.anims.play('idle', true);
         }
+
+        this.bg_1.tilePositionX = this.camara.scrollX * .3;
+        this.bg_2.tilePositionX = this.camara.scrollX * .6;
 
     }
 

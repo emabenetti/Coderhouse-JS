@@ -5,7 +5,7 @@ import Bootloader from './bootloader.js';
 import Jugar from './scenes/jugar.js';
 
 const config = {
-    width: 3200,   //ancho de pantalla
+    width: 800,   //ancho de pantalla
     height: 224,  //alto de pantalla
     parent: "contenedor",   //en que parte del index.html esta el juego. Es el id del div
     physics: {                //Hay varios tipos de fisicas en phaser. Voy a usar arcade que son las mas faciles
@@ -15,7 +15,7 @@ const config = {
             {
                 y: 500        //se indica gravedad verticalmente
             },
-            debug: true
+            //debug: true
         }
     },
     pixelart: true,           //le indico a Phaser que voy a estar usando pixelart en las imagenes
