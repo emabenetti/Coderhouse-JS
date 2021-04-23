@@ -1,0 +1,264 @@
+{
+    "anims": [
+        {
+            "key": "run",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_23"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_24"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_25"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_26"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_27"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_28"
+                }
+            ]
+        },
+        {
+            "key": "idle_b",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_0"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_1"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_2"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_3"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_4"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_5"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_6"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_7"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_8"
+                }
+            ]
+        },
+        {
+            "key": "hurt",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_69"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_70"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_71"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_72"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_73"
+                }
+            ]
+        },
+        {
+            "key": "defeat",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_92"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_93"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_94"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_95"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_96"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_97"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_98"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_99"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_100"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_101"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_102"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_103"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_104"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_105"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_106"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_107"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_108"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_109"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_110"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_111"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_112"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_113"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_114"
+                }
+            ]
+        },
+        {
+            "key": "attack",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_46"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_47"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_48"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_49"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_50"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_51"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_52"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_53"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_54"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_55"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_56"
+                },
+                {
+                    "key": "sombra",
+                    "frame": "nightborne_57"
+                }
+            ]
+        }
+    ]
+}

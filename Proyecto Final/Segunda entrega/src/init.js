@@ -15,7 +15,7 @@ const config = {
             {
                 y: 500        //se indica gravedad verticalmente
             },
-            //debug: true
+            debug: true
         }
     },
     pixelart: true,           //le indico a Phaser que voy a estar usando pixelart en las imagenes

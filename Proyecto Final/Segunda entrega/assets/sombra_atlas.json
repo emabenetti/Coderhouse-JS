@@ -1,0 +1,723 @@
+{
+    "frames": [
+        {
+            "filename": "nightborne_0",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_1",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 80,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_2",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 0,
+                "y": 80
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_3",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 80,
+                "y": 80
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_4",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 160,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_5",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 160,
+                "y": 80
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_6",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 0,
+                "y": 160
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_7",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 80,
+                "y": 160
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_8",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 160,
+                "y": 160
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_23",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 240,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_24",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 240,
+                "y": 80
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_25",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 240,
+                "y": 160
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_26",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 0,
+                "y": 240
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_27",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 80,
+                "y": 240
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_28",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 160,
+                "y": 240
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_46",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 240,
+                "y": 240
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_47",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 320,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_48",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 320,
+                "y": 80
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_49",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 320,
+                "y": 160
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_50",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 320,
+                "y": 240
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_51",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 0,
+                "y": 320
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_52",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 80,
+                "y": 320
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_53",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 160,
+                "y": 320
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_54",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 240,
+                "y": 320
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_55",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 320,
+                "y": 320
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_56",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 400,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_57",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 400,
+                "y": 80
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_69",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 400,
+                "y": 160
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_70",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 400,
+                "y": 240
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_71",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 400,
+                "y": 320
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_72",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 0,
+                "y": 400
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_73",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 80,
+                "y": 400
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_92",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 160,
+                "y": 400
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_93",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 240,
+                "y": 400
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_94",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 320,
+                "y": 400
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_95",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 400,
+                "y": 400
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_96",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 480,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_97",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 480,
+                "y": 80
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_98",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 480,
+                "y": 160
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_99",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 480,
+                "y": 240
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_100",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 480,
+                "y": 320
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_101",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 480,
+                "y": 400
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_102",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 0,
+                "y": 480
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_103",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 80,
+                "y": 480
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_104",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 160,
+                "y": 480
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_105",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 240,
+                "y": 480
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_106",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 320,
+                "y": 480
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_107",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 400,
+                "y": 480
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_108",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 480,
+                "y": 480
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_109",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 560,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_110",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 560,
+                "y": 80
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_111",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 560,
+                "y": 160
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_112",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 560,
+                "y": 240
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_113",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 560,
+                "y": 320
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "nightborne_114",
+            "frame": {
+                "w": 80,
+                "h": 80,
+                "x": 560,
+                "y": 400
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Gamma V2",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

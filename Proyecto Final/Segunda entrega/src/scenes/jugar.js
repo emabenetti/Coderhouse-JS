@@ -1,5 +1,6 @@
 import Jugador from '../gameObjects/jugador.js'
-import { debugModo } from '../herramientas/debug.js';
+import { debugModo } from '../herramientas/debug.js'
+import Sombra from '../gameObjects/sombra.js'
 
 //Las escenas en Phaser son como "niveles" o "pantallas".
 //Esto crea una nueva escena llamada Jugar (para la pantalla principal) y extiende la clase de Phaser.Scene
@@ -65,22 +66,40 @@ export default class Jugar extends Phaser.Scene {
         //physics.add le indica a Phaser que este objeto va a interacturar con el motor de físicas
         //sprite(x,y, imagen) es para asignarle una imagen al objeto con la ubicacion en XY y que imagen se va a usar ('heroe' se definio en el bootloader.js)
         this.heroe = this.physics.add.sprite(800, 50, 'heroe');
+
+        this.sombra = this.physics.add.sprite(900, 50, 'sombra');
+        this.sombra2 = this.physics.add.sprite(1000, 50, 'sombra');
+        this.sombra3 = this.physics.add.sprite(1100, 50, 'sombra');
+        this.sombras = this.physics.add.group({
+            
+        })
         
-        //El hitbox del personaje terminó siendo mas grande de lo deseado, asi que le reduzco el ancho a la mitad y el alto en un 20%
-        this.heroe.body.setSize(this.heroe.width * 0.5, this.heroe.height * 0.8)
+        //El hitbox del personaje terminó siendo mas grande de lo deseado
+        //Se puede activar o desactivar que Phaser muestre el hitbox de los objetos poniendo debug: true en init.js, en la parte de arcade physics
+        this.heroe.body.setSize(this.heroe.width * 0.5, this.heroe.height * 0.9)
+        sombras.body.setSize(sombra.width * 0.5, sombra.height * 0.6)
 
         //Esto crea una variable para las animaciones, y les asigna el json que habíamos cargado en bootloader.js
         this.heroe_anim = this.cache.json.get('heroe_anim');
+        this.sombra_anim = this.cache.json.get('sombra_anim');
+        sombra.scaleX = -1
+        sombra.body.offset.x = 60;
+
+
 
         //Finalmente se le pasa heroe_anim a la funcion de animaciones de Phaser
         this.anims.fromJSON(this.heroe_anim);
+        this.anims.fromJSON(this.sombra_anim);
 
         //Con esto podemos indicar que se ejecute una animación específica. En este caso 'idle'. 
         //Las demas animaciones posibles estan en el archivo heroe_anim.json en la carpeta assets
+
         this.heroe.anims.play('idle');
-        
+        sombra.anims.play('idle_b');
+
         //Esto le indica a Phaser que este objeto interactua con los bordes de la pantalla (para que no caiga para siempre)
         this.heroe.body.setCollideWorldBounds(true);
+        sombra.body.setCollideWorldBounds(true);
         
         //Phaser tiene una variable para inicializar las flechas, la barra y la tecla shift.
         //Resumidamente guarda un objeto con las propiedades right, left, up, down, space y shift.
@@ -88,7 +107,8 @@ export default class Jugar extends Phaser.Scene {
 
         //Collider le indica a Phaser que dos objetos colisionan entre si. En este caso el personaje y el piso.
         this.physics.add.collider(this.heroe, capaPiso);
-
+        this.physics.add.collider(sombra, capaPiso);
+        this.physics.add.collider(this.heroe, sombra);
 
         //Phaser puede simular una camara que siga al jugador.
         //Muy util cuando el mapa es mas grande que la configuración de la pantalla.
