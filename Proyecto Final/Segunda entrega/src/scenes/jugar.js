@@ -29,15 +29,15 @@ export default class Jugar extends Phaser.Scene {
         //Luego agrego las imagenes correspondientes al mapa. Como parametro hay que pasar el nombre del tileset que usamos en Tiled y el nombre de la imagen del bootloader
         const tileset = map.addTilesetImage('bosque', 'tiles');
 
-        // create an tiled sprite with the size of our game screen
+        // todo create an tiled sprite with the size of our game screen
         this.bg_1 = this.add.tileSprite(0, 0, ancho, alto, "cielo");
-        // Set its pivot to the top left corner
+        // todo Set its pivot to the top left corner
         this.bg_1.setOrigin(0, 0);
         // fixe it so it won't move when the camera moves.
         // Instead we are moving its texture on the update
         this.bg_1.setScrollFactor(0);
 
-        // Add a second background layer. Repeat as in bg_1
+        // todo Add a second background layer. Repeat as in bg_1
         this.bg_2 = this.add.tileSprite(0, 0, ancho, alto, "pinos");
         this.bg_2.setOrigin(0, 0);
         this.bg_2.setScrollFactor(0);
@@ -77,13 +77,13 @@ export default class Jugar extends Phaser.Scene {
         //El hitbox del personaje terminó siendo mas grande de lo deseado
         //Se puede activar o desactivar que Phaser muestre el hitbox de los objetos poniendo debug: true en init.js, en la parte de arcade physics
         this.heroe.body.setSize(this.heroe.width * 0.5, this.heroe.height * 0.9)
-        sombras.body.setSize(sombra.width * 0.5, sombra.height * 0.6)
+        this.sombra.body.setSize(this.sombra.width * 0.5, this.sombra.height * 0.6)
 
         //Esto crea una variable para las animaciones, y les asigna el json que habíamos cargado en bootloader.js
         this.heroe_anim = this.cache.json.get('heroe_anim');
         this.sombra_anim = this.cache.json.get('sombra_anim');
-        sombra.scaleX = -1
-        sombra.body.offset.x = 60;
+        this.sombra.scaleX = -1
+        this.sombra.body.offset.x = 60;
 
 
 
@@ -95,11 +95,11 @@ export default class Jugar extends Phaser.Scene {
         //Las demas animaciones posibles estan en el archivo heroe_anim.json en la carpeta assets
 
         this.heroe.anims.play('idle');
-        sombra.anims.play('idle_b');
+        this.sombra.anims.play('idle_b');
 
         //Esto le indica a Phaser que este objeto interactua con los bordes de la pantalla (para que no caiga para siempre)
         this.heroe.body.setCollideWorldBounds(true);
-        sombra.body.setCollideWorldBounds(true);
+        this.sombra.body.setCollideWorldBounds(true);
         
         //Phaser tiene una variable para inicializar las flechas, la barra y la tecla shift.
         //Resumidamente guarda un objeto con las propiedades right, left, up, down, space y shift.
@@ -107,8 +107,8 @@ export default class Jugar extends Phaser.Scene {
 
         //Collider le indica a Phaser que dos objetos colisionan entre si. En este caso el personaje y el piso.
         this.physics.add.collider(this.heroe, capaPiso);
-        this.physics.add.collider(sombra, capaPiso);
-        this.physics.add.collider(this.heroe, sombra);
+        this.physics.add.collider(this.sombra, capaPiso);
+        this.physics.add.collider(this.heroe, this.sombra);
 
         //Phaser puede simular una camara que siga al jugador.
         //Muy util cuando el mapa es mas grande que la configuración de la pantalla.

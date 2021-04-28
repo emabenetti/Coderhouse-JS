@@ -1,4 +1,6 @@
 //Este archivo es la configuración básica de Phaser. Aca se indica el alto/ancho de la pantalla, las fisicas, etc
+//document.location.href = ;
+window.location = 'http://127.0.0.1:5501/Proyecto%20Final/Segunda%20entrega/intro.html';
 
 //Se importa bootloader y la escena "jugar"
 import Bootloader from './bootloader.js';
