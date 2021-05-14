@@ -25,6 +25,7 @@ function actualizarTotal() {
     for (let index = 0; index < carritoFilas.length; index++) {
         let carritoFila = carritoFilas[index]
         let precio = carritoFila.getElementsByClassName('cart-price')[0]
+        console.log(precio)
         let cantidad = carritoFila.getElementsByClassName('cart-quantity-input')[0]
     }
 }
